@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5c3efb73-c288-44af-9198-efbbb42c0e2c" name="gaoc@EPEKW-Q1100020 2013-05-22 11:09:33" runUser="IGTMASTER\gaoc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4ca49d67-0d66-4a55-b4b3-2d739b980c55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gaoc_EPEKW-Q1100020 2013-05-22 11_09_33">
+      <DeploymentItem filename="C:\Users\gaoc\Downloads\NSubstitute-master\Output\Debug\NET35\NSubstitute\NSubstitute.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-22T11:09:33.4148674+08:00" queuing="2013-05-22T11:09:33.4568674+08:00" start="2013-05-22T11:09:33.4838674+08:00" finish="2013-05-22T11:09:33.8768674+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_ThrowingExceptions_ReplaceSeveralTimes" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="438d81f1-6e44-b431-a794-3f4a6592cc50">
+      <Execution id="d9a1783d-5de5-49de-a5b2-3f60a8ee00b0" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.ThrowingExceptions, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ThrowingExceptions_ReplaceSeveralTimes" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="438d81f1-6e44-b431-a794-3f4a6592cc50" executionId="d9a1783d-5de5-49de-a5b2-3f60a8ee00b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d9a1783d-5de5-49de-a5b2-3f60a8ee00b0" testId="438d81f1-6e44-b431-a794-3f4a6592cc50" testName="Test_ThrowingExceptions_ReplaceSeveralTimes" computerName="EPEKW-Q1100020" duration="00:00:00.2102366" startTime="2013-05-22T11:09:33.4838674+08:00" endTime="2013-05-22T11:09:33.8608674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9a1783d-5de5-49de-a5b2-3f60a8ee00b0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

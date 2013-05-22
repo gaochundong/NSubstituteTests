@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="70a9b10b-dff3-4f93-979f-ac6488357c8b" name="gaoc@EPEKW-Q1100020 2013-05-22 13:23:38" runUser="IGTMASTER\gaoc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4ca49d67-0d66-4a55-b4b3-2d739b980c55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gaoc_EPEKW-Q1100020 2013-05-22 13_23_38">
+      <DeploymentItem filename="C:\Users\gaoc\Downloads\NSubstitute-master\Output\Debug\NET35\NSubstitute\NSubstitute.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-22T13:23:38.0218674+08:00" queuing="2013-05-22T13:23:38.0928674+08:00" start="2013-05-22T13:23:38.1098674+08:00" finish="2013-05-22T13:23:38.5448674+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_CheckingCallOrder_SubscribeToEventBeforeOpeningConnection" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="11a4b43b-2848-fc71-71a8-579477fec509">
+      <Execution id="9c6ba998-a3f5-4046-aec6-120d4503937e" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.CheckingCallOrder, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_CheckingCallOrder_SubscribeToEventBeforeOpeningConnection" />
+    </UnitTest>
+    <UnitTest name="Test_CheckingCallOrder_CommandRunWhileConnectionIsOpen" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="edfa74ad-4483-90cb-71c1-07cb8ad00650">
+      <Execution id="7e746cea-678a-418d-845b-c383d1340582" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.CheckingCallOrder, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_CheckingCallOrder_CommandRunWhileConnectionIsOpen" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="11a4b43b-2848-fc71-71a8-579477fec509" executionId="9c6ba998-a3f5-4046-aec6-120d4503937e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edfa74ad-4483-90cb-71c1-07cb8ad00650" executionId="7e746cea-678a-418d-845b-c383d1340582" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9c6ba998-a3f5-4046-aec6-120d4503937e" testId="11a4b43b-2848-fc71-71a8-579477fec509" testName="Test_CheckingCallOrder_SubscribeToEventBeforeOpeningConnection" computerName="EPEKW-Q1100020" duration="00:00:00.2172254" startTime="2013-05-22T13:23:38.1288674+08:00" endTime="2013-05-22T13:23:38.5238674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c6ba998-a3f5-4046-aec6-120d4503937e">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e746cea-678a-418d-845b-c383d1340582" testId="edfa74ad-4483-90cb-71c1-07cb8ad00650" testName="Test_CheckingCallOrder_CommandRunWhileConnectionIsOpen" computerName="EPEKW-Q1100020" duration="00:00:00.0029633" startTime="2013-05-22T13:23:38.5258674+08:00" endTime="2013-05-22T13:23:38.5318674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e746cea-678a-418d-845b-c383d1340582">
+    </UnitTestResult>
+  </Results>
+</TestRun>

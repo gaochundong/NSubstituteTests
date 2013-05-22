@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="26d4f776-d99e-4ed8-a5ac-4c84f5cc18c4" name="gaoc@EPEKW-Q1100020 2013-05-22 13:05:54" runUser="IGTMASTER\gaoc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4ca49d67-0d66-4a55-b4b3-2d739b980c55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gaoc_EPEKW-Q1100020 2013-05-22 13_05_54">
+      <DeploymentItem filename="C:\Users\gaoc\Downloads\NSubstitute-master\Output\Debug\NET35\NSubstitute\NSubstitute.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-22T13:05:54.0578674+08:00" queuing="2013-05-22T13:05:54.1148674+08:00" start="2013-05-22T13:05:54.1328674+08:00" finish="2013-05-22T13:05:54.5238674+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_ActionsWithArgumentMatchers_PerformingActionsWithAnyArgs" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="68bbdd05-977b-3117-bad0-4a793312f50f">
+      <Execution id="447b19c8-631b-4a2c-99ea-c5748a12c223" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.ActionsWithArgumentMatchers, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ActionsWithArgumentMatchers_PerformingActionsWithAnyArgs" />
+    </UnitTest>
+    <UnitTest name="Test_ActionsWithArgumentMatchers_PerformingActionsWithArgs" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="35b4b551-44ca-6808-3bea-6c4bed612170">
+      <Execution id="33c657cd-af73-41ad-86d7-14eacb61e3a6" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.ActionsWithArgumentMatchers, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ActionsWithArgumentMatchers_PerformingActionsWithArgs" />
+    </UnitTest>
+    <UnitTest name="Test_ActionsWithArgumentMatchers_ArgActionsCallSpec" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="5aafc54a-b79f-942c-8da6-576a95145a8b">
+      <Execution id="57c10b02-110a-446c-9720-1cb6a2e8da2b" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.ActionsWithArgumentMatchers, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ActionsWithArgumentMatchers_ArgActionsCallSpec" />
+    </UnitTest>
+    <UnitTest name="Test_ActionsWithArgumentMatchers_InvokingCallbacks" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="8e591eb5-d291-8b0a-d7cb-27c1fb7e8949">
+      <Execution id="377eb97e-b188-495e-8b78-ead59dd99269" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.ActionsWithArgumentMatchers, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ActionsWithArgumentMatchers_InvokingCallbacks" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="35b4b551-44ca-6808-3bea-6c4bed612170" executionId="33c657cd-af73-41ad-86d7-14eacb61e3a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aafc54a-b79f-942c-8da6-576a95145a8b" executionId="57c10b02-110a-446c-9720-1cb6a2e8da2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68bbdd05-977b-3117-bad0-4a793312f50f" executionId="447b19c8-631b-4a2c-99ea-c5748a12c223" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e591eb5-d291-8b0a-d7cb-27c1fb7e8949" executionId="377eb97e-b188-495e-8b78-ead59dd99269" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="33c657cd-af73-41ad-86d7-14eacb61e3a6" testId="35b4b551-44ca-6808-3bea-6c4bed612170" testName="Test_ActionsWithArgumentMatchers_PerformingActionsWithArgs" computerName="EPEKW-Q1100020" duration="00:00:00.1409272" startTime="2013-05-22T13:05:54.1658674+08:00" endTime="2013-05-22T13:05:54.4708674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33c657cd-af73-41ad-86d7-14eacb61e3a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="57c10b02-110a-446c-9720-1cb6a2e8da2b" testId="5aafc54a-b79f-942c-8da6-576a95145a8b" testName="Test_ActionsWithArgumentMatchers_ArgActionsCallSpec" computerName="EPEKW-Q1100020" duration="00:00:00.0056022" startTime="2013-05-22T13:05:54.4738674+08:00" endTime="2013-05-22T13:05:54.4818674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57c10b02-110a-446c-9720-1cb6a2e8da2b">
+    </UnitTestResult>
+    <UnitTestResult executionId="447b19c8-631b-4a2c-99ea-c5748a12c223" testId="68bbdd05-977b-3117-bad0-4a793312f50f" testName="Test_ActionsWithArgumentMatchers_PerformingActionsWithAnyArgs" computerName="EPEKW-Q1100020" duration="00:00:00.0012342" startTime="2013-05-22T13:05:54.4838674+08:00" endTime="2013-05-22T13:05:54.4878674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="447b19c8-631b-4a2c-99ea-c5748a12c223">
+    </UnitTestResult>
+    <UnitTestResult executionId="377eb97e-b188-495e-8b78-ead59dd99269" testId="8e591eb5-d291-8b0a-d7cb-27c1fb7e8949" testName="Test_ActionsWithArgumentMatchers_InvokingCallbacks" computerName="EPEKW-Q1100020" duration="00:00:00.0186004" startTime="2013-05-22T13:05:54.4898674+08:00" endTime="2013-05-22T13:05:54.5108674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="377eb97e-b188-495e-8b78-ead59dd99269">
+    </UnitTestResult>
+  </Results>
+</TestRun>

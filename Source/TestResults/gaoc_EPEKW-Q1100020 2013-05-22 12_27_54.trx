@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6b7aae9b-93b0-4151-b2de-acc71203b129" name="gaoc@EPEKW-Q1100020 2013-05-22 12:27:54" runUser="IGTMASTER\gaoc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4ca49d67-0d66-4a55-b4b3-2d739b980c55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gaoc_EPEKW-Q1100020 2013-05-22 12_27_54">
+      <DeploymentItem filename="C:\Users\gaoc\Downloads\NSubstitute-master\Output\Debug\NET35\NSubstitute\NSubstitute.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-22T12:27:54.2738674+08:00" queuing="2013-05-22T12:27:54.3298674+08:00" start="2013-05-22T12:27:54.3438674+08:00" finish="2013-05-22T12:27:55.8648674+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="3" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_AutoRecursiveMocks_ManuallyCreateSubstitutes" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="61c5d9ef-a0e1-b5eb-9ccd-95af148c688e">
+      <Execution id="d03dd412-157a-4db2-8d37-9cf3b223f714" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.AutoRecursiveMocks, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_AutoRecursiveMocks_ManuallyCreateSubstitutes" />
+    </UnitTest>
+    <UnitTest name="Test_AutoRecursiveMocks_AutomaticallyCreateSubstitutes" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="ea2938e8-6df8-38dc-d8db-acc3972a68a3">
+      <Execution id="f8deaf71-2806-499b-8d60-059e4b771294" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.AutoRecursiveMocks, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_AutoRecursiveMocks_AutomaticallyCreateSubstitutes" />
+    </UnitTest>
+    <UnitTest name="Test_AutoRecursiveMocks_CallRecursivelySubbed" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="d0932b71-180b-d30b-a469-58bd2a72b7ac">
+      <Execution id="34ab758a-f4b0-455d-a8db-4a016e73a233" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.AutoRecursiveMocks, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_AutoRecursiveMocks_CallRecursivelySubbed" />
+    </UnitTest>
+    <UnitTest name="Test_AutoRecursiveMocks_SubstituteChains" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="80d0ab2b-6882-1388-d3ce-cd7ff4dff79d">
+      <Execution id="d0fe2b61-08ea-499e-ac2b-a120093d827a" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.AutoRecursiveMocks, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_AutoRecursiveMocks_SubstituteChains" />
+    </UnitTest>
+    <UnitTest name="Test_AutoRecursiveMocks_AutoValues" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="bbc6f144-5d6b-b0ae-1df1-243bea6ff857">
+      <Execution id="0f2b67ee-e316-4244-804f-03093e855fe4" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.AutoRecursiveMocks, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_AutoRecursiveMocks_AutoValues" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="61c5d9ef-a0e1-b5eb-9ccd-95af148c688e" executionId="d03dd412-157a-4db2-8d37-9cf3b223f714" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80d0ab2b-6882-1388-d3ce-cd7ff4dff79d" executionId="d0fe2b61-08ea-499e-ac2b-a120093d827a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbc6f144-5d6b-b0ae-1df1-243bea6ff857" executionId="0f2b67ee-e316-4244-804f-03093e855fe4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0932b71-180b-d30b-a469-58bd2a72b7ac" executionId="34ab758a-f4b0-455d-a8db-4a016e73a233" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea2938e8-6df8-38dc-d8db-acc3972a68a3" executionId="f8deaf71-2806-499b-8d60-059e4b771294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d03dd412-157a-4db2-8d37-9cf3b223f714" testId="61c5d9ef-a0e1-b5eb-9ccd-95af148c688e" testName="Test_AutoRecursiveMocks_ManuallyCreateSubstitutes" computerName="EPEKW-Q1100020" duration="00:00:01.2532895" startTime="2013-05-22T12:27:54.3728674+08:00" endTime="2013-05-22T12:27:55.8138674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d03dd412-157a-4db2-8d37-9cf3b223f714">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;System.Int32[]&gt;. Actual:&lt;System.Int32[]&gt;. </Message>
+          <StackTrace>   at NSubstitute.Tests.AutoRecursiveMocks.Test_AutoRecursiveMocks_ManuallyCreateSubstitutes() in C:\Users\gaoc\Downloads\NSubstitute-master\Source\NSubstitute.Tests\15.AutoRecursiveMocks.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0fe2b61-08ea-499e-ac2b-a120093d827a" testId="80d0ab2b-6882-1388-d3ce-cd7ff4dff79d" testName="Test_AutoRecursiveMocks_SubstituteChains" computerName="EPEKW-Q1100020" duration="00:00:00.0129482" startTime="2013-05-22T12:27:55.8168674+08:00" endTime="2013-05-22T12:27:55.8318674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0fe2b61-08ea-499e-ac2b-a120093d827a">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f2b67ee-e316-4244-804f-03093e855fe4" testId="bbc6f144-5d6b-b0ae-1df1-243bea6ff857" testName="Test_AutoRecursiveMocks_AutoValues" computerName="EPEKW-Q1100020" duration="00:00:00.0006983" startTime="2013-05-22T12:27:55.8338674+08:00" endTime="2013-05-22T12:27:55.8378674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f2b67ee-e316-4244-804f-03093e855fe4">
+    </UnitTestResult>
+    <UnitTestResult executionId="34ab758a-f4b0-455d-a8db-4a016e73a233" testId="d0932b71-180b-d30b-a469-58bd2a72b7ac" testName="Test_AutoRecursiveMocks_CallRecursivelySubbed" computerName="EPEKW-Q1100020" duration="00:00:00.0005587" startTime="2013-05-22T12:27:55.8398674+08:00" endTime="2013-05-22T12:27:55.8428674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34ab758a-f4b0-455d-a8db-4a016e73a233">
+    </UnitTestResult>
+    <UnitTestResult executionId="f8deaf71-2806-499b-8d60-059e4b771294" testId="ea2938e8-6df8-38dc-d8db-acc3972a68a3" testName="Test_AutoRecursiveMocks_AutomaticallyCreateSubstitutes" computerName="EPEKW-Q1100020" duration="00:00:00.0019518" startTime="2013-05-22T12:27:55.8448674+08:00" endTime="2013-05-22T12:27:55.8488674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8deaf71-2806-499b-8d60-059e4b771294">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;System.Int32[]&gt;. Actual:&lt;System.Int32[]&gt;. </Message>
+          <StackTrace>   at NSubstitute.Tests.AutoRecursiveMocks.Test_AutoRecursiveMocks_AutomaticallyCreateSubstitutes() in C:\Users\gaoc\Downloads\NSubstitute-master\Source\NSubstitute.Tests\15.AutoRecursiveMocks.cs:line 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

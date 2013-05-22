@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6985fe3c-9dcf-41de-bfae-75021d8df419" name="gaoc@EPEKW-Q1100020 2013-05-22 11:18:25" runUser="IGTMASTER\gaoc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4ca49d67-0d66-4a55-b4b3-2d739b980c55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gaoc_EPEKW-Q1100020 2013-05-22 11_18_25">
+      <DeploymentItem filename="C:\Users\gaoc\Downloads\NSubstitute-master\Output\Debug\NET35\NSubstitute\NSubstitute.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-22T11:18:25.7958674+08:00" queuing="2013-05-22T11:18:25.8888674+08:00" start="2013-05-22T11:18:25.9078674+08:00" finish="2013-05-22T11:18:26.3188674+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_RaisingEvents_RaiseEvent" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="ef13a171-f444-9e15-c348-95561e067586">
+      <Execution id="41c6c921-8d1b-4694-bffa-6968f7ce4228" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.RaisingEvents, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_RaisingEvents_RaiseEvent" />
+    </UnitTest>
+    <UnitTest name="Test_RaisingEvents_RaisingDelegateEvents" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="ffd7d8e8-2bda-fcf0-b501-8b1bef8b0fb6">
+      <Execution id="d43cb85a-6e61-4e18-b20e-2e242d24ac53" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.RaisingEvents, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_RaisingEvents_RaisingDelegateEvents" />
+    </UnitTest>
+    <UnitTest name="Test_RaisingEvents_ArgsDoNotHaveDefaultCtor" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="8e7f21c7-738b-c376-16c5-d72a43ad628b">
+      <Execution id="855c42cd-5ad7-49a3-9ba6-6db0abd847e6" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.RaisingEvents, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_RaisingEvents_ArgsDoNotHaveDefaultCtor" />
+    </UnitTest>
+    <UnitTest name="Test_RaisingEvents_RaiseEventButNoMindSenderAndArgs" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="7b074632-ae1d-11c7-941f-31ca687778f3">
+      <Execution id="173fedd1-16fa-4c43-a373-31da95517bf3" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.RaisingEvents, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_RaisingEvents_RaiseEventButNoMindSenderAndArgs" />
+    </UnitTest>
+    <UnitTest name="Test_RaisingEvents_RaisingActionEvents" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="633d2457-28fe-ba40-8b7c-d6c61c894d4c">
+      <Execution id="fe14d767-a8a9-4e60-824d-17281c426a91" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.RaisingEvents, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_RaisingEvents_RaisingActionEvents" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="633d2457-28fe-ba40-8b7c-d6c61c894d4c" executionId="fe14d767-a8a9-4e60-824d-17281c426a91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b074632-ae1d-11c7-941f-31ca687778f3" executionId="173fedd1-16fa-4c43-a373-31da95517bf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e7f21c7-738b-c376-16c5-d72a43ad628b" executionId="855c42cd-5ad7-49a3-9ba6-6db0abd847e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef13a171-f444-9e15-c348-95561e067586" executionId="41c6c921-8d1b-4694-bffa-6968f7ce4228" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffd7d8e8-2bda-fcf0-b501-8b1bef8b0fb6" executionId="d43cb85a-6e61-4e18-b20e-2e242d24ac53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fe14d767-a8a9-4e60-824d-17281c426a91" testId="633d2457-28fe-ba40-8b7c-d6c61c894d4c" testName="Test_RaisingEvents_RaisingActionEvents" computerName="EPEKW-Q1100020" duration="00:00:00.1485582" startTime="2013-05-22T11:18:25.9128674+08:00" endTime="2013-05-22T11:18:26.2498674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe14d767-a8a9-4e60-824d-17281c426a91">
+    </UnitTestResult>
+    <UnitTestResult executionId="173fedd1-16fa-4c43-a373-31da95517bf3" testId="7b074632-ae1d-11c7-941f-31ca687778f3" testName="Test_RaisingEvents_RaiseEventButNoMindSenderAndArgs" computerName="EPEKW-Q1100020" duration="00:00:00.0022940" startTime="2013-05-22T11:18:26.2548674+08:00" endTime="2013-05-22T11:18:26.2698674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="173fedd1-16fa-4c43-a373-31da95517bf3">
+    </UnitTestResult>
+    <UnitTestResult executionId="855c42cd-5ad7-49a3-9ba6-6db0abd847e6" testId="8e7f21c7-738b-c376-16c5-d72a43ad628b" testName="Test_RaisingEvents_ArgsDoNotHaveDefaultCtor" computerName="EPEKW-Q1100020" duration="00:00:00.0014364" startTime="2013-05-22T11:18:26.2718674+08:00" endTime="2013-05-22T11:18:26.2768674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="855c42cd-5ad7-49a3-9ba6-6db0abd847e6">
+    </UnitTestResult>
+    <UnitTestResult executionId="41c6c921-8d1b-4694-bffa-6968f7ce4228" testId="ef13a171-f444-9e15-c348-95561e067586" testName="Test_RaisingEvents_RaiseEvent" computerName="EPEKW-Q1100020" duration="00:00:00.0004575" startTime="2013-05-22T11:18:26.2788674+08:00" endTime="2013-05-22T11:18:26.2818674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41c6c921-8d1b-4694-bffa-6968f7ce4228">
+    </UnitTestResult>
+    <UnitTestResult executionId="d43cb85a-6e61-4e18-b20e-2e242d24ac53" testId="ffd7d8e8-2bda-fcf0-b501-8b1bef8b0fb6" testName="Test_RaisingEvents_RaisingDelegateEvents" computerName="EPEKW-Q1100020" duration="00:00:00.0045168" startTime="2013-05-22T11:18:26.2838674+08:00" endTime="2013-05-22T11:18:26.2908674+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d43cb85a-6e61-4e18-b20e-2e242d24ac53">
+    </UnitTestResult>
+  </Results>
+</TestRun>

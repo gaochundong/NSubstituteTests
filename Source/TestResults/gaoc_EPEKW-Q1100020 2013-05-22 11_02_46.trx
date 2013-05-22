@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ab754324-9c01-4e84-b634-c10d6e86b657" name="gaoc@EPEKW-Q1100020 2013-05-22 11:02:46" runUser="IGTMASTER\gaoc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4ca49d67-0d66-4a55-b4b3-2d739b980c55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gaoc_EPEKW-Q1100020 2013-05-22 11_02_46">
+      <DeploymentItem filename="C:\Users\gaoc\Downloads\NSubstitute-master\Output\Debug\NET35\NSubstitute\NSubstitute.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-22T11:02:46.0520851+08:00" queuing="2013-05-22T11:02:46.0990804+08:00" start="2013-05-22T11:02:46.1240779+08:00" finish="2013-05-22T11:02:46.5310372+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_CallbacksWhenDo_PassFunctionsToReturns" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="f3f35488-58cf-e872-ce89-57c11f2c1e05">
+      <Execution id="6913b7c7-8e9d-41b9-a60b-fbc7bd972ca3" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.CallbacksWhenDo, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_CallbacksWhenDo_PassFunctionsToReturns" />
+    </UnitTest>
+    <UnitTest name="Test_CallbacksWhenDo_UseWhenDoOnNonVoid" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="ac0c6bc1-aa56-c648-f900-a5d2966051b8">
+      <Execution id="7c663476-9ac8-482a-9318-9fea89df67cb" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.CallbacksWhenDo, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_CallbacksWhenDo_UseWhenDoOnNonVoid" />
+    </UnitTest>
+    <UnitTest name="Test_CallbacksWhenDo_UseWhenDo" storage="c:\users\gaoc\downloads\nsubstitute-master\source\nsubstitute.tests\bin\debug\nsubstitute.tests.dll" id="cefbb95e-99da-f3d4-ac52-557f57ee53ac">
+      <Execution id="2cce4add-04d0-4ba5-81d3-74a068595586" />
+      <TestMethod codeBase="C:/Users/gaoc/Downloads/NSubstitute-master/Source/NSubstitute.Tests/bin/Debug/NSubstitute.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NSubstitute.Tests.CallbacksWhenDo, NSubstitute.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_CallbacksWhenDo_UseWhenDo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ac0c6bc1-aa56-c648-f900-a5d2966051b8" executionId="7c663476-9ac8-482a-9318-9fea89df67cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cefbb95e-99da-f3d4-ac52-557f57ee53ac" executionId="2cce4add-04d0-4ba5-81d3-74a068595586" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3f35488-58cf-e872-ce89-57c11f2c1e05" executionId="6913b7c7-8e9d-41b9-a60b-fbc7bd972ca3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7c663476-9ac8-482a-9318-9fea89df67cb" testId="ac0c6bc1-aa56-c648-f900-a5d2966051b8" testName="Test_CallbacksWhenDo_UseWhenDoOnNonVoid" computerName="EPEKW-Q1100020" duration="00:00:00.1540037" startTime="2013-05-22T11:02:46.1240779+08:00" endTime="2013-05-22T11:02:46.4460457+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c663476-9ac8-482a-9318-9fea89df67cb">
+    </UnitTestResult>
+    <UnitTestResult executionId="2cce4add-04d0-4ba5-81d3-74a068595586" testId="cefbb95e-99da-f3d4-ac52-557f57ee53ac" testName="Test_CallbacksWhenDo_UseWhenDo" computerName="EPEKW-Q1100020" duration="00:00:00.0277217" startTime="2013-05-22T11:02:46.4590444+08:00" endTime="2013-05-22T11:02:46.4890414+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cce4add-04d0-4ba5-81d3-74a068595586">
+    </UnitTestResult>
+    <UnitTestResult executionId="6913b7c7-8e9d-41b9-a60b-fbc7bd972ca3" testId="f3f35488-58cf-e872-ce89-57c11f2c1e05" testName="Test_CallbacksWhenDo_PassFunctionsToReturns" computerName="EPEKW-Q1100020" duration="00:00:00.0036435" startTime="2013-05-22T11:02:46.4960407+08:00" endTime="2013-05-22T11:02:46.5020401+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6913b7c7-8e9d-41b9-a60b-fbc7bd972ca3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
